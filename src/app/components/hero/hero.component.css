@@ -1,0 +1,88 @@
+@font-face {
+  font-family: bloody;
+  src: url(../../ressources/fonts/BLOODY.TTF);
+}
+.hero {
+  background: url(../../ressources/images/plagueDoctor.jpg);
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: 100% auto;
+  height: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 0 40px;
+  font-size: 14px;
+}
+.hero h2 {
+  font-family: bloody;
+  font-size: 35px;
+  color: crimson;
+}
+.hero nav ul {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero nav ul li {
+  list-style: none;
+}
+.hero nav ul li a {
+  text-decoration: none;
+  padding: 20px 10px;
+  color: #fff;
+}
+.hero nav ul li a:hover {
+  color: crimson;
+}
+.hero nav ul li div {
+  display: flex;
+  align-items: center;
+}
+.hero nav ul li div div {
+  display: flex;
+  flex-direction: column;
+}
+.hero nav ul li div a {
+  padding: 0 10px;
+}
+.hero nav ul li div span {
+  font-size: 12px;
+  text-align: center;
+}
+.hero nav ul li div span a {
+  color: lightgray;
+}
+.hero nav ul li div span a:hover {
+  color: crimson;
+}
+#sante {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  color: #000;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+#sante:hover {
+  color: crimson;
+}
+.icon {
+  color: white;
+}
+@media only screen and (max-width: 1315px) {
+  .hero nav ul {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .hero nav ul {
+    width: 70%;
+    font-size: 12px;
+  }
+}

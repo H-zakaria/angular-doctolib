@@ -1,0 +1,14 @@
+<div class="searchFields">
+  <h2>
+    Reservez une consultation physique ou video chez un professionnel de sante
+  </h2>
+  <form [formGroup]="searchForm">
+    <input type="text" formControlName="ville" placeholder="ville..." />
+    <input
+      type="text"
+      formControlName="specialite"
+      placeholder="specialiste..."
+    />
+    <fa-icon [icon]="faSearch" class="icon"></fa-icon>
+  </form>
+</div>

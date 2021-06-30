@@ -1,0 +1,39 @@
+.searchFields {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(255, 255, 250, 0.1); */
+}
+.searchFields h2 {
+  width: 70%;
+  color: crimson;
+  font-family: bloody;
+  font-style: oblique;
+  text-align: center;
+}
+.searchFields form {
+  background-color: darkgray;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.searchFields form input {
+  width: 48%;
+  padding: 10px;
+  border: gray 1px solid;
+}
+.searchFields form input:focus {
+  outline: none;
+}
+.icon {
+  align-self: center;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.icon:hover {
+  color: white;
+}
